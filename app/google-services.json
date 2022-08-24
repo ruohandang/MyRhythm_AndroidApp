@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "600969941180",
+    "firebase_url": "https://sportmusic-b023b-default-rtdb.firebaseio.com",
+    "project_id": "sportmusic-b023b",
+    "storage_bucket": "sportmusic-b023b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600969941180:android:853614bf58b30a3a5040b9",
+        "android_client_info": {
+          "package_name": "edu.neu.madcourse.testmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600969941180-gi58qbq2oqp94i0u9lku9rq8omthdelm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL09HDMS-a2hrseQCafeg3iSDZKbiztn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600969941180-gi58qbq2oqp94i0u9lku9rq8omthdelm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

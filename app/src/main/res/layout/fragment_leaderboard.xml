@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".LeaderboardFragment"
+    android:id="@+id/leaderBoardFragmentID">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/starry_night">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="5dp"
+            android:rotation="-15"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="25dp"
+            android:fontFamily="@font/nunitosans_blackitalic"
+            android:text="MyRhythm"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/leaderboardTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="@string/leader_board"
+        android:fontFamily="@font/nunitosans_bold"
+        android:textAlignment="textStart"
+        android:textColor="@color/starry_night"
+        android:textSize="24sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:id="@+id/leaderboardSwitchLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/localLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Button
+                android:id="@+id/local_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Local"
+                android:fontFamily="@font/nunitosans_bold"
+                android:textSize="11sp"
+                android:gravity="center"
+                android:textColor="@color/starry_night"
+                android:backgroundTint="@color/white"
+                app:strokeColor="@color/starry_night"
+                app:strokeWidth="2dp"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/local_tv"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:gravity="center"-->
+<!--                android:text="Local" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/globalLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/global_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="global"
+                android:textSize="11sp"
+                android:gravity="center"
+                android:textColor="@color/starry_night"
+                android:fontFamily="@font/nunitosans_bold"
+                android:backgroundTint="@color/white"
+                app:strokeColor="@color/starry_night"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/leaderboardLinearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/section_background_outline_blue">
+
+        <LinearLayout
+            android:id="@+id/titleRelativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:weightSum="4"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/leaderboardSwitchLayout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <TextView
+                android:id="@+id/rank"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="Rank"
+                android:fontFamily="@font/nunitosans_semibold"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/user"
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:fontFamily="@font/nunitosans_semibold"
+                android:text="User"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="110dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:text="City"
+                android:layout_weight="1"
+                android:fontFamily="@font/nunitosans_semibold"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="25dp"
+                android:gravity="center"
+                android:fontFamily="@font/nunitosans_semibold"
+                android:text="Miles"
+                android:layout_weight="1"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/leaderboardRecycler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:nestedScrollingEnabled="true"
+            android:orientation="vertical"
+            android:fontFamily="@font/nunitosans_regular"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titleRelativeLayout"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="weatherLocation" type="id" />
+    <item name="temperatureTitle" type="id" />
+    <item name="humidityTitle" type="id" />
+    <item name="yourBPMtitle" type="id" />
+    <item name="heartImage" type="id" />
+    <item name="temperature_tv" type="id" />
+    <item name="musicInfoLayout" type="id" />
+    <item name="leaderboardRecycler" type="id" />
+    <item name="layoutPlayer" type="id" />
+    <item name="jcplayer" type="id" />
+    <item name="motivation_tv" type="id" />
+    <item name="greeting_tv" type="id" />
+    <item name="badge_sv" type="id" />
+    <item name="badge_lv" type="id" />
+    <item name="badge2" type="id" />
+    <item name="badge3" type="id" />
+    <item name="badge4" type="id" />
+    <item name="island" type="id" />
+    <item name="lottie_island" type="id" />
+</resources>

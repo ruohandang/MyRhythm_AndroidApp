@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <font
+        android:fontWeight="400"
+        android:font="@font/nunitosans_light"/>
+
+    <font
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        android:font="@font/nunitosans_regular"/>
+    <font
+        android:fontStyle="italic"
+        android:fontWeight="400"
+        android:font="@font/nunitosans_italic"/>
+
+    <font
+        android:fontWeight="400"
+        android:font="@font/nunitosans_semibold"/>
+
+    <font
+        android:fontWeight="400"
+        android:font="@font/nunitosans_bold"/>
+
+    <font
+        android:fontWeight="400"
+        android:font="@font/nunitosans_extrabold"/>
+
+
+    <font
+        android:fontWeight="400"
+        android:font="@font/nunitosans_black"/>
+
+    <font
+        android:fontWeight="400"
+        android:font="@font/nunitosans_blackitalic"/>
+
+    <font
+        android:fontWeight="400"
+        android:font="@font/nunitosans_extrabolditalic"/>
+
+    <font
+        android:fontWeight="400"
+        android:font="@font/nunitosans_bolditalic"/>
+
+
+
+
+</font-family>

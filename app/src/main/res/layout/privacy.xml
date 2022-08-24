@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:textSize="20sp"
+        android:textColor="@color/starry_night"
+        android:fontFamily="@font/nunitosans_semibold"
+        android:text="@string/myrhythm_uses_your_location_data_to_provide_you_with_the_weather_and_leaderboard_feature_to_learn_more_visit_our_privacy_policy_at_our_site"/>
+
+    <Button
+        android:id="@+id/closeprivacy_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/close"
+        android:fontFamily="@font/nunitosans_bold"
+        android:textAllCaps="false"/>
+
+
+</LinearLayout>

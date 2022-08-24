@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">testMusic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="leader_board">Leader Board</string>
+    <string name="_100">100</string>
+    <string name="bpm">BPM:</string>
+    <string name="music_info">Music Info</string>
+    <string name="global">Global</string>
+    <string name="local">Local</string>
+    <string name="artist">Artist</string>
+    <string name="title">Title</string>
+    <string name="good_morning_runner">Good morning, runner!</string>
+    <string name="save">save</string>
+    <string name="no_song_is_playing">No Song Is Playing</string>
+    <string name="slide_me_for_badges">Slide Me For Badges!</string>
+    <string name="portland">Portland</string>
+    <string name="temperature">Temperature:</string>
+    <string name="_30">30</string>
+    <string name="your_bpm">Your BPM</string>
+    <string name="_0">0</string>
+    <string name="get_bpm">Get BPM</string>
+    <string name="update_weather">Update Weather</string>
+    <string name="humidity">Humidity:</string>
+    <string name="myrhythm">MyRhythm</string>
+    <string name="description">Description:</string>
+    <string name="app_logo">app logo</string>
+    <string name="liked_songs">Liked songs</string>
+    <string name="setting">Setting</string>
+    <string name="close">Close</string>
+    <string name="myrhythm_uses_your_location_data_to_provide_you_with_the_weather_and_leaderboard_feature_to_learn_more_visit_our_privacy_policy_at_our_site">MyRhythm uses your location data to provide you with the weather and leaderboard feature. To learn more, visit our Privacy Policy at our site.</string>
+
+    <string-array name="array_usa_states">
+        <item>Select Your State</item>
+        <item>AL</item>
+        <item>AK</item>
+        <item>AZ</item>
+        <item>AR</item>
+        <item>CA</item>
+        <item>CZ</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DE</item>
+        <item>DC</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>GU</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>PR</item>
+        <item>RId</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VI</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:layout_gravity="center_horizontal"
+    android:weightSum="4"
+    android:paddingRight="20dp">
+
+
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="1"
+        android:layout_weight="1"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_toEndOf="@+id/rank"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="Jim"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_width="110dp"
+        android:layout_height="25dp"
+        android:layout_toEndOf="@+id/user"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="Portland"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/step"
+        android:layout_width="70dp"
+        android:layout_height="25dp"
+        android:layout_toEndOf="@+id/city"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:text="50"
+        android:textAlignment="center" />
+
+
+</LinearLayout>
