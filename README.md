@@ -1,3 +1,4 @@
-# NUMAD22Su_Group32Final
-This is a sport music app.
-我来捣乱了👻
+## Hey there, this is MyRhythm
+A music app which maximizes the runner's pleasure by matching their running tempos to the rhythm of the music.
+
+<image src = "/demo.gif" width = "200">
